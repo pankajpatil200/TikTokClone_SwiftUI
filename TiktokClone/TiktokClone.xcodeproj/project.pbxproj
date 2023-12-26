@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D13503452B26D30E0031FD68 /* FeddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13503442B26D30E0031FD68 /* FeddCell.swift */; };
+		D13503472B26DC7F0031FD68 /* PeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13503462B26DC7F0031FD68 /* PeopleCell.swift */; };
+		D13503492B271DC90031FD68 /* LikeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13503482B271DC90031FD68 /* LikeViewCell.swift */; };
+		D135034B2B2737900031FD68 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D135034A2B2737900031FD68 /* ProfileHeaderView.swift */; };
+		D135034D2B2749D80031FD68 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D135034C2B2749D80031FD68 /* GridView.swift */; };
+		D1AA115B2B2341030053C0F0 /* TiktokCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA115A2B2341030053C0F0 /* TiktokCloneApp.swift */; };
+		D1AA115D2B2341030053C0F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA115C2B2341030053C0F0 /* ContentView.swift */; };
+		D1AA115F2B2341120053C0F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AA115E2B2341120053C0F0 /* Assets.xcassets */; };
+		D1AA11622B2341120053C0F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AA11612B2341120053C0F0 /* Preview Assets.xcassets */; };
+		D1AA116F2B23418F0053C0F0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA116E2B23418F0053C0F0 /* ProfileView.swift */; };
+		D1AA11712B23419A0053C0F0 /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA11702B23419A0053C0F0 /* LikeView.swift */; };
+		D1AA11732B2341AB0053C0F0 /* PlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA11722B2341AB0053C0F0 /* PlusView.swift */; };
+		D1AA11752B2341B60053C0F0 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA11742B2341B60053C0F0 /* PeopleView.swift */; };
+		D1AA11772B2341C20053C0F0 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA11762B2341C20053C0F0 /* FeedView.swift */; };
+		D1AA117B2B2341E90053C0F0 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA117A2B2341E90053C0F0 /* TabbarView.swift */; };
+		D1F505A92B29964E0001A029 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F505A82B29964E0001A029 /* PostModel.swift */; };
+		D1F505AB2B2996B70001A029 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F505AA2B2996B70001A029 /* FeedViewModel.swift */; };
+		D1F505AE2B29A4800001A029 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F505AD2B29A4800001A029 /* CustomVideoPlayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D13503442B26D30E0031FD68 /* FeddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeddCell.swift; sourceTree = "<group>"; };
+		D13503462B26DC7F0031FD68 /* PeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCell.swift; sourceTree = "<group>"; };
+		D13503482B271DC90031FD68 /* LikeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeViewCell.swift; sourceTree = "<group>"; };
+		D135034A2B2737900031FD68 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		D135034C2B2749D80031FD68 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		D1AA11572B2341030053C0F0 /* TiktokClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiktokClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AA115A2B2341030053C0F0 /* TiktokCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiktokCloneApp.swift; sourceTree = "<group>"; };
+		D1AA115C2B2341030053C0F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1AA115E2B2341120053C0F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1AA11612B2341120053C0F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1AA116E2B23418F0053C0F0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D1AA11702B23419A0053C0F0 /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
+		D1AA11722B2341AB0053C0F0 /* PlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusView.swift; sourceTree = "<group>"; };
+		D1AA11742B2341B60053C0F0 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		D1AA11762B2341C20053C0F0 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		D1AA117A2B2341E90053C0F0 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		D1F505A82B29964E0001A029 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		D1F505AA2B2996B70001A029 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		D1F505AD2B29A4800001A029 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1AA11542B2341030053C0F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1AA114E2B2341030053C0F0 = {
+			isa = PBXGroup;
+			children = (
+				D1AA11592B2341030053C0F0 /* TiktokClone */,
+				D1AA11582B2341030053C0F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1AA11582B2341030053C0F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA11572B2341030053C0F0 /* TiktokClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1AA11592B2341030053C0F0 /* TiktokClone */ = {
+			isa = PBXGroup;
+			children = (
+				D1F505A72B29963E0001A029 /* Model */,
+				D1F505A62B2996360001A029 /* ViewModel */,
+				D1F505A52B2996270001A029 /* Views */,
+				D1AA115A2B2341030053C0F0 /* TiktokCloneApp.swift */,
+				D1AA115C2B2341030053C0F0 /* ContentView.swift */,
+				D1AA115E2B2341120053C0F0 /* Assets.xcassets */,
+				D1AA11602B2341120053C0F0 /* Preview Content */,
+			);
+			path = TiktokClone;
+			sourceTree = "<group>";
+		};
+		D1AA11602B2341120053C0F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA11612B2341120053C0F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1AA11682B2341240053C0F0 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA117A2B2341E90053C0F0 /* TabbarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D1AA11692B23412D0053C0F0 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA11762B2341C20053C0F0 /* FeedView.swift */,
+				D13503442B26D30E0031FD68 /* FeddCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		D1AA116A2B2341370053C0F0 /* Peoples */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA11742B2341B60053C0F0 /* PeopleView.swift */,
+				D13503462B26DC7F0031FD68 /* PeopleCell.swift */,
+			);
+			path = Peoples;
+			sourceTree = "<group>";
+		};
+		D1AA116B2B2341470053C0F0 /* Plus */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA11722B2341AB0053C0F0 /* PlusView.swift */,
+			);
+			path = Plus;
+			sourceTree = "<group>";
+		};
+		D1AA116C2B2341760053C0F0 /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA11702B23419A0053C0F0 /* LikeView.swift */,
+				D13503482B271DC90031FD68 /* LikeViewCell.swift */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		D1AA116D2B23417F0053C0F0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA116E2B23418F0053C0F0 /* ProfileView.swift */,
+				D135034A2B2737900031FD68 /* ProfileHeaderView.swift */,
+				D135034C2B2749D80031FD68 /* GridView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D1F505A52B2996270001A029 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1F505AC2B29A41A0001A029 /* CustomController */,
+				D1AA116D2B23417F0053C0F0 /* Profile */,
+				D1AA116C2B2341760053C0F0 /* Like */,
+				D1AA116B2B2341470053C0F0 /* Plus */,
+				D1AA116A2B2341370053C0F0 /* Peoples */,
+				D1AA11692B23412D0053C0F0 /* Feed */,
+				D1AA11682B2341240053C0F0 /* TabBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1F505A62B2996360001A029 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D1F505AA2B2996B70001A029 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D1F505A72B29963E0001A029 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1F505A82B29964E0001A029 /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1F505AC2B29A41A0001A029 /* CustomController */ = {
+			isa = PBXGroup;
+			children = (
+				D1F505AD2B29A4800001A029 /* CustomVideoPlayer.swift */,
+			);
+			path = CustomController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1AA11562B2341030053C0F0 /* TiktokClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1AA11652B2341120053C0F0 /* Build configuration list for PBXNativeTarget "TiktokClone" */;
+			buildPhases = (
+				D1AA11532B2341030053C0F0 /* Sources */,
+				D1AA11542B2341030053C0F0 /* Frameworks */,
+				D1AA11552B2341030053C0F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiktokClone;
+			productName = TiktokClone;
+			productReference = D1AA11572B2341030053C0F0 /* TiktokClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1AA114F2B2341030053C0F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D1AA11562B2341030053C0F0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = D1AA11522B2341030053C0F0 /* Build configuration list for PBXProject "TiktokClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1AA114E2B2341030053C0F0;
+			productRefGroup = D1AA11582B2341030053C0F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1AA11562B2341030053C0F0 /* TiktokClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1AA11552B2341030053C0F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AA11622B2341120053C0F0 /* Preview Assets.xcassets in Resources */,
+				D1AA115F2B2341120053C0F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1AA11532B2341030053C0F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13503492B271DC90031FD68 /* LikeViewCell.swift in Sources */,
+				D1AA11772B2341C20053C0F0 /* FeedView.swift in Sources */,
+				D1AA115D2B2341030053C0F0 /* ContentView.swift in Sources */,
+				D1F505A92B29964E0001A029 /* PostModel.swift in Sources */,
+				D135034D2B2749D80031FD68 /* GridView.swift in Sources */,
+				D1F505AE2B29A4800001A029 /* CustomVideoPlayer.swift in Sources */,
+				D1F505AB2B2996B70001A029 /* FeedViewModel.swift in Sources */,
+				D13503472B26DC7F0031FD68 /* PeopleCell.swift in Sources */,
+				D1AA117B2B2341E90053C0F0 /* TabbarView.swift in Sources */,
+				D1AA11712B23419A0053C0F0 /* LikeView.swift in Sources */,
+				D1AA11732B2341AB0053C0F0 /* PlusView.swift in Sources */,
+				D135034B2B2737900031FD68 /* ProfileHeaderView.swift in Sources */,
+				D1AA116F2B23418F0053C0F0 /* ProfileView.swift in Sources */,
+				D1AA115B2B2341030053C0F0 /* TiktokCloneApp.swift in Sources */,
+				D13503452B26D30E0031FD68 /* FeddCell.swift in Sources */,
+				D1AA11752B2341B60053C0F0 /* PeopleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D1AA11632B2341120053C0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1AA11642B2341120053C0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1AA11662B2341120053C0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TiktokClone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechMahindra.TiktokClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1AA11672B2341120053C0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TiktokClone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechMahindra.TiktokClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1AA11522B2341030053C0F0 /* Build configuration list for PBXProject "TiktokClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AA11632B2341120053C0F0 /* Debug */,
+				D1AA11642B2341120053C0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1AA11652B2341120053C0F0 /* Build configuration list for PBXNativeTarget "TiktokClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1AA11662B2341120053C0F0 /* Debug */,
+				D1AA11672B2341120053C0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1AA114F2B2341030053C0F0 /* Project object */;
+}
